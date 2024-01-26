@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Dantsoho/static/css/main.0cb4701f.css",
+    "main.js": "/Dantsoho/static/js/main.77f6829c.js",
+    "static/media/pexels-ketut-subiyanto-4546016-1.jpg": "/Dantsoho/static/media/pexels-ketut-subiyanto-4546016-1.d6a017a9f3d3a8e300a9.jpg",
+    "static/media/Ship-3-scaled.jpg": "/Dantsoho/static/media/Ship-3-scaled.34f00da82fa9e854c212.jpg",
+    "static/media/water.jpg": "/Dantsoho/static/media/water.5dcc75f7e376260d8365.jpg",
+    "static/media/ship-2-scaled.jpg": "/Dantsoho/static/media/ship-2-scaled.7c919f71cac2b9a1037c.jpg",
+    "static/media/container.jpg": "/Dantsoho/static/media/container.1eb4acc8d5887a223d4f.jpg",
+    "static/media/vessel-brokrage-scaled.jpg": "/Dantsoho/static/media/vessel-brokrage-scaled.0f7450d283d8c7f6bb3a.jpg",
+    "static/media/about-welcome.jpg": "/Dantsoho/static/media/about-welcome.b9485d504b2ec0ea43a3.jpg",
+    "static/media/ruben-bagues-wplxPRCF7gA-unsplash-scaled.jpg": "/Dantsoho/static/media/ruben-bagues-wplxPRCF7gA-unsplash-scaled.9c68e8a97eea93a89dfa.jpg",
+    "static/media/cytonn-photography-scaled.jpg": "/Dantsoho/static/media/cytonn-photography-scaled.fcd24456ed6afcca6f6f.jpg",
+    "static/media/drilling.jpg": "/Dantsoho/static/media/drilling.6596a196683c314ed58f.jpg",
+    "static/media/Business-scaled.jpg": "/Dantsoho/static/media/Business-scaled.c6d4cc85f0c1cdd83690.jpg",
+    "static/media/stethoscope.jpeg": "/Dantsoho/static/media/stethoscope.c277db1ca5b768aee7e8.jpeg",
+    "static/media/ship.jpg": "/Dantsoho/static/media/ship.b219580d796aa7761fda.jpg",
+    "static/media/education.jpeg": "/Dantsoho/static/media/education.0eb9a59f765b98615697.jpeg",
+    "static/media/empowering-youth-kenya.jpeg": "/Dantsoho/static/media/empowering-youth-kenya.68d0637a1eb2631cf052.jpeg",
+    "static/media/dantsoho.png": "/Dantsoho/static/media/dantsoho.83567bbe91251fad40df.png",
+    "index.html": "/Dantsoho/index.html",
+    "main.0cb4701f.css.map": "/Dantsoho/static/css/main.0cb4701f.css.map",
+    "main.77f6829c.js.map": "/Dantsoho/static/js/main.77f6829c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb4701f.css",
+    "static/js/main.77f6829c.js"
+  ]
+}
