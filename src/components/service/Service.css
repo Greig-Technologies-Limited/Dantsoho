@@ -1,0 +1,148 @@
+.about {
+    width: 100%;
+    padding-top: 5.5rem;
+    position: relative;
+    background: #FBFBFB;
+  }
+  
+  .about::before {
+    content: '';
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background: #e1e0e0 url('../../assets/World_map_blank_without_borders.svg.png') no-repeat center center/cover; */
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+
+
+/* .about {
+    width: 100%;
+    padding-top: 4rem;
+    background: rgb(255, 255, 255) url('../../assets/World_map_blank_without_borders.svg.png') no-repeat center center/cover;
+  } */
+.aboutContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.aboutContainer h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.aboutContainer hr {
+    border: none;
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 1rem;
+}
+.aboutContainer p {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.aboutChildHolder {
+    width: 90%;
+    display: flex;
+    margin-top: 2rem;
+    /* margin-bottom: 4rem; */
+}
+.aboutChild {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    -webkit-box-shadow: -1px 1px 5px 6px rgba(0, 0, 0, 0.109);
+    -moz-box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.109);
+    box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.109);
+}
+.aboutChild .childTop {
+    height: 250px;
+    background: url('../../assets/water.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop1 {
+    height: 250px;
+    background: url('../../assets/ship.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop2 {
+    height: 250px;
+    background: url('../../assets/cytonn-photography-scaled.jpg') no-repeat center center/cover;
+    margin-right: 1rem;
+}
+.aboutChild .childTop3 {
+    height: 250px;
+    background: url('../../assets/container.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop4 {
+    height: 250px;
+    background: url('../../assets/vessel-brokrage-scaled.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop5 {
+    height: 250px;
+    background: url('../../assets/ship-2-scaled.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop6 {
+    height: 250px;
+    background: url('../../assets/Ship-3-scaled.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop7 {
+    height: 250px;
+    background: url('../../assets/Business-scaled.jpg') no-repeat center center/cover;
+}
+.aboutChild .childTop8 {
+    height: 250px;
+    background: url('../../assets/ruben-bagues-wplxPRCF7gA-unsplash-scaled.jpg') no-repeat center center/cover;
+}
+.aboutChild .childBottom {
+    margin-right: 1rem;
+    /* background: white; */
+    margin-bottom: 3rem;
+}
+.aboutChild .childBottom h4 {
+    font-size: 18px;
+    font-weight: 450;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.aboutChild .childBottom p {
+    width: 88%;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+}
+.aboutChild .iconHold {
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -2rem;
+    left: 16.5rem;
+    border: 3px solid red;
+}
+
+@media screen and (max-width:760px) {
+    .aboutChildHolder {
+        display: flex;
+        flex-direction: column;
+    }
+}

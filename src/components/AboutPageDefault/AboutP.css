@@ -1,0 +1,185 @@
+/* Common styles for all screen sizes */
+* {
+    padding: 0;
+    margin: 0;
+}
+.background {
+    height: 500px;
+    background: url(../../assets/container.jpg) no-repeat center center/cover;
+    margin-bottom: 70px;
+}
+.background .text {
+    padding-top: 230px;
+    color: #fff;
+    line-height: 5em;
+    text-align: center;
+}
+.text h1 {
+    font-size: 57px;
+}
+.text p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.iconStyle {
+    font-size: 10px;
+}
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 100px;
+}
+.red {
+    color: red;
+    font-size: 25px;
+    font-weight: 450;
+    width: 35%;
+}
+.our .ah {
+    display: flex;
+    align-items: center;
+}
+.hr {
+    border: none;
+    background-color: red;
+    width: 25px;
+    height: 2px;
+}
+.our p {
+    font-size: 20px;
+    line-height: 2em;
+    color: grey;
+}
+.our h2 {
+    font-size: 30px;
+    width: 55%;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+.our h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.our .lsa {
+    margin-top: 50px;
+}
+.blackBg {
+    background-color: rgba(0, 0, 0, 0.818);
+    height: 60vh;
+    width: 100%; 
+}
+.width {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    width: 65%;
+    margin: 0 auto;
+}
+.blackBg h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.blackBg p {
+    color: grey;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 450;
+}
+.progressP {
+    width: 70%;
+    height: auto;
+    background-color: #fff;
+    padding: 50px 50px 50px 50px;
+}
+.lastDivii {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    left: 330px; 
+    margin-top: -200px; 
+}
+.progressP h1 {
+    font-size: 40px;
+}
+.progressP p {
+    font-size: 20px;
+    line-height: 2em;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.progressCon p {
+    font-size: 20px;
+    color: black;
+}
+.progressCon .info {
+    display: flex;
+    justify-content: space-between;
+}
+progress {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid red;
+    height: 1px;
+}
+progress::-webkit-progress-bar {
+    background-color: red;
+}
+progress::-webkit-progress-value {
+    background-color: red;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+}
+.third {
+    display: flex;
+    flex-direction: column;
+}
+.four {
+    display: flex;
+    flex-direction: column;
+}
+.lastDivii img {
+    width: 500px;
+}
+/* Media Query for all screen sizes */
+@media screen and (max-width: 768px) {
+    /* Add any additional styles or overrides for all screen sizes here */
+    .con {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    .red {
+        width: 100%;
+    }
+    .width {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .lastDivii {
+        width: 90%;
+        left: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .blackBg {
+        margin-bottom: 7em;
+        height: 120vh;
+    }
+}

@@ -1,0 +1,136 @@
+.contact {
+    width: 100%;
+    padding-top: 5rem;
+    background: white;
+}
+.contactContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactContainer h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.contactContainer hr {
+    border: none;
+    width: 80px;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 4.5rem;
+}
+
+.contactContentHold {
+    display: flex;
+}
+
+.contactDetails {
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.options {
+    width: 100%;
+    border-right: 1px solid red;
+    margin-bottom: 2rem;
+}
+.iconHold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: red;
+    margin-bottom: 1rem;
+}
+.options h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: .5rem;
+    padding-bottom: 1rem;
+}
+.options p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: .4px;
+    text-align: left;
+    margin-left: .5rem;
+}
+
+form {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F4ECEC;
+    -webkit-box-shadow: -1px 1px 5px 6px rgba(0, 0, 0, 0.039);
+    -moz-box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.039);
+    box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.039);
+}
+form .firstRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form .firstRow input {
+    width: 40%;
+    height: 5vh;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border: none;
+    border-bottom: 1px solid red;
+}
+form .firstRow input::placeholder {
+    font-size: 15px;
+    padding-left: 1rem;
+}
+form textarea {
+    margin-top: 1rem;
+    width: 83%;
+    height: 200px;
+    border: 1px solid red;
+    padding: 20px;
+    font-family: inherit;
+    font-size: 15px;
+}
+form textarea::placeholder {
+    font-size: 15px;
+    font-family: 'poppins';
+}
+form button {
+    background-color: red;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+form button:hover {
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+}
+
+@media screen and (max-width:760px) {
+    .contactDetails {
+        display: flex;
+        flex-direction: column;
+    }
+    .options {
+        width: 80%;
+        border-right: none;
+        border-bottom: 1px solid red;
+        margin-bottom: 1rem;
+    }
+}
