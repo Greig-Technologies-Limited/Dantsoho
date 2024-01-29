@@ -26,8 +26,8 @@ const Footer = () => {
                 <div className="div2">
                     <div className="icon">  <FaMapMarkerAlt className='iconF'  /></div>
                     <div className="divC">
-                        <h2>19th floor, Western House 8-10</h2>
-                        <h2>Broad street Lagos - Nigeria.</h2>
+                        <h2>19th Floor, Western House 8-10</h2>
+                        <h2>Broad Street Lagos - Nigeria.</h2>
                     </div>
                 </div>
             </div>

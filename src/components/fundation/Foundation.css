@@ -39,6 +39,16 @@
     font-size: 20px;
     font-weight: 500;
   }
+  .fText p .goHome {
+    font-size: 20px;
+    color: #fff;
+    padding-top: .2em;
+    transition: .5s ease-in;
+    text-transform: none;
+}
+.fText p .goHome:hover {
+    color: rgba(255, 0, 0, 0.513);
+}
   .img3 {
     display: flex;
     justify-content: space-evenly;

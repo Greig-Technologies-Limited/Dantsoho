@@ -76,6 +76,7 @@ a:hover {
   a {
     color: #fff;
     transition: .5s ease-in-out;
+    cursor: pointer;
   }
   a:hover {
     text-decoration: solid;

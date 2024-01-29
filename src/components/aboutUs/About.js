@@ -3,6 +3,7 @@ import "./About.css"
 import { MdOutlineSignalCellularAlt } from 'react-icons/md';
 import { FaCalendarAlt } from 'react-icons/fa';
 import { IoSunnySharp } from 'react-icons/io5';
+import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
@@ -13,6 +14,10 @@ const About = () => {
             <h5>About Us</h5>
             <h1>One Stop Maritime And Logistic Services Company.</h1>
             <p>Our business is open to all and sundry; Federal Government, State Government and Local Government. We are open to medium- and short-term contracts, including one-offs, for medium- to small-scale industries and individuals alike. We are a one-stop maritime and logistics services company.</p>
+            
+            <Link to="AboutPage" className='btn'>
+              Learn More
+            </Link>
           </div>
           <div class="first-3">
             <div className="first-3-half1">

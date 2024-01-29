@@ -21,6 +21,16 @@
     font-size: 20px;
     font-weight: 500;
 }
+.text p .goHome {
+    font-size: 20px;
+    color: #fff;
+    padding-top: .2em;
+    transition: .5s ease-in;
+    text-transform: none;
+}
+.text p .goHome:hover {
+    color: rgba(255, 0, 0, 0.513);
+}
 .iconStyle {
     font-size: 10px;
 }

@@ -5,6 +5,7 @@ import sTeh from '../../assets/stethoscope.jpeg'
 import Edu from '../../assets/education.jpeg'
 import Emp from '../../assets/empowering-youth-kenya.jpeg'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import {Link} from 'react-router-dom'
 // import { useTypewriter, Cursor } from 'react-simple-typewriter'
 export const Foundation = () => {
   const [text] = useTypewriter({
@@ -19,7 +20,7 @@ export const Foundation = () => {
         <div className="fText">
           <h1>
             Foundation
-            <p>Home <FaGreaterThan className='iconStyle' /> Foundation</p>
+            <p><Link to="/" className='goHome'>Go Back</Link> <FaGreaterThan className='iconStyle' /> Foundation</p>
           </h1>
         </div>
       </div>

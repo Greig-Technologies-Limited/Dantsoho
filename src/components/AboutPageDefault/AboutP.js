@@ -7,13 +7,14 @@ import Two from '../../assets/icon-process.png'
 import Three from '../../assets/icon-engineer.png'
 import Four from '../../assets/icon-artist.png'
 import { FaGreaterThan } from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 
 export const AboutP = () => {
   return (
     <div className="abouW">
         <div className="background">
         <div className="text">  <h1>About</h1>
-            <p>Home <FaGreaterThan className='iconStyle' /> About</p></div>
+            <p><Link to="/" className='goHome'>Go Back</Link> <FaGreaterThan className='iconStyle' /> About</p></div>
         </div>
        
         <div className="con">
