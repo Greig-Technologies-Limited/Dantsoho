@@ -11,7 +11,7 @@ const About = () => {
         <div class="thi-con">
           <div class="thi-divs">
             <h5>About Us</h5>
-            <h1>One stop maritime and logistic services company.</h1>
+            <h1>One Stop Maritime And Logistic Services Company.</h1>
             <p>Our business is open to all and sundry; Federal Government, State Government and Local Government. We are open to medium- and short-term contracts, including one-offs, for medium- to small-scale industries and individuals alike. We are a one-stop maritime and logistics services company.</p>
           </div>
           <div class="first-3">

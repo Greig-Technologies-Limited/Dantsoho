@@ -1,15 +1,17 @@
 export const sliderData = [
     {
-      image: "https://i.ibb.co/HGKSwk4/slide10.jpg",
+      image: "https://i.ibb.co/q1gVQxP/water.jpg",
       heading: "A Maritime, Energy and Tranding Company",
       desc: "Serving governments and commercial markets in Nigeria and countries around the globe.",
     },
     {
-      image: "https://i.ibb.co/9cWCDFd/maksym-kaharlytskyi-851-Smpkk-U-unsplash.jpg",
-      heading: "Serving governments and commercial markets in Nigeria and countries around the globe.",
+      image: "https://i.ibb.co/QCrk0dw/wallpaperflare-com-wallpaper-2.jpg",
+      heading: "A Maritime, Energy and Tranding Company",
+      desc: "Serving governments and commercial markets in Nigeria and countries around the globe.",
     },
     {
-      image: "https://i.ibb.co/hWzHKhG/wallpaperflare-com-wallpaper.jpg",
-      heading: "Serving governments and commercial markets in Nigeria and countries around the globe.",
+      image: "https://i.ibb.co/N9d5VgB/pexels-sascha-hormel-1095814.jpg",
+      heading: "A Maritime, Energy and Tranding Company",
+      desc: "Serving governments and commercial markets in Nigeria and countries around the globe.",
     },
   ];

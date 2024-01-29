@@ -5,9 +5,10 @@ import sTeh from '../../assets/stethoscope.jpeg'
 import Edu from '../../assets/education.jpeg'
 import Emp from '../../assets/empowering-youth-kenya.jpeg'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+// import { useTypewriter, Cursor } from 'react-simple-typewriter'
 export const Foundation = () => {
-  const { text } = useTypewriter({
-    words: ['Contributing', 'Giving Back'],
+  const [text] = useTypewriter({
+    words: ['Contributing', 'Giving back', ],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 80,
@@ -24,10 +25,10 @@ export const Foundation = () => {
       </div>
       <div className="foundationBase">
         <h1>
-          Dantsoho
+          Dantsoho {''}
           <span style={{ fontWeight: 'bold', color: 'red' }}>
-            {text} <Cursor cursorStyle='|' />
-          </span> to Society
+            {text} <Cursor cursorStyle='|'/>
+          </span>to Society
         </h1>
             <div className="fP">
             <p>At our one-stop maritime and logistics services company, we believe in giving back to the society and making a positive impact on the world around us. We are committed to supporting various social causes, including health, education, youth, and women’s empowerment.</p>
