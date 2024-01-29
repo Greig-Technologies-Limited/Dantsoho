@@ -8,7 +8,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 // import { useTypewriter, Cursor } from 'react-simple-typewriter'
 export const Foundation = () => {
   const [text] = useTypewriter({
-    words: ['Contributing', 'Giving back', ],
+    words: ['Contributing', 'Giving Back', ],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 80,
