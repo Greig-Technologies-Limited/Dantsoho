@@ -25,16 +25,16 @@ const About = () => {
                 <div className="iconH">
                   <MdOutlineSignalCellularAlt className='icn' size={30}  />
                 </div>
-                <h2>Eius provident</h2>
-                <p>Magni repellendus vel ullam hic officia   accusantium ipsa dolor omnis dolor voluptatem</p>
+                <h2>Mission</h2>
+                <p>Our mission is to provide our customers with reliable, efficient, and cost-effective maritime and logistics solutions.</p>
                 
               </div>
               <div className="sec1">
                 <div className="iconH">
                   <IoSunnySharp className='icn' size={30}  />
                 </div>
-                <h2>Eius provident</h2>
-                <p>Magni repellendus vel ullam hic officia   accusantium ipsa dolor omnis dolor voluptatem</p>
+                <h2>Vision</h2>
+                <p>To be the leading provider of comprehensive and innovative maritime and logistics services in the industry.</p>
               </div>
             </div>
             <div className="first-3-half2">
@@ -42,15 +42,15 @@ const About = () => {
                 <div className="iconH">
                   <IoSunnySharp className='icn'  size={30}  />
                 </div>
-                <h2>Eius provident</h2>
-                <p>Magni repellendus vel ullam hic officia   accusantium ipsa dolor omnis dolor voluptatem</p>
+                <h2>Plan</h2>
+                <p>We strive to achieve this by leveraging on our expertise, cutting-edge technology, and dedicated team to deliver exceptional services that meet and exceed our customers’ needs.</p>
               </div>
               <div className="sec2">
                 <div className="iconH">
                   <FaCalendarAlt className='icn'  size={30}  />
                 </div>
-                <h2>Eius provident</h2>
-                <p>Magni repellendus vel ullam hic officia   accusantium ipsa dolor omnis dolor voluptatem</p>
+                <h2>Strength</h2>
+                <p>We are committed to building lasting relationships with our customers, employees, and stakeholders, and to conducting our business with the highest level of integrity and professionalism.</p>
               </div>
             </div>
           </div>
