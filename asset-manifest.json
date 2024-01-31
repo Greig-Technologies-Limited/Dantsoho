@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dantsoho/static/css/main.e14c19e5.css",
-    "main.js": "/Dantsoho/static/js/main.686add01.js",
+    "main.js": "/Dantsoho/static/js/main.df609a3b.js",
     "static/media/pexels-ketut-subiyanto-4546016-1.jpg": "/Dantsoho/static/media/pexels-ketut-subiyanto-4546016-1.d6a017a9f3d3a8e300a9.jpg",
     "static/media/Ship-3-scaled.jpg": "/Dantsoho/static/media/Ship-3-scaled.34f00da82fa9e854c212.jpg",
     "static/media/water.jpg": "/Dantsoho/static/media/water.5dcc75f7e376260d8365.jpg",
@@ -20,10 +20,10 @@
     "static/media/dantsoho.png": "/Dantsoho/static/media/dantsoho.83567bbe91251fad40df.png",
     "index.html": "/Dantsoho/index.html",
     "main.e14c19e5.css.map": "/Dantsoho/static/css/main.e14c19e5.css.map",
-    "main.686add01.js.map": "/Dantsoho/static/js/main.686add01.js.map"
+    "main.df609a3b.js.map": "/Dantsoho/static/js/main.df609a3b.js.map"
   },
   "entrypoints": [
     "static/css/main.e14c19e5.css",
-    "static/js/main.686add01.js"
+    "static/js/main.df609a3b.js"
   ]
 }
