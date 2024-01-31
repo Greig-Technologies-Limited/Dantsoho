@@ -46,15 +46,22 @@
     color: red;
     font-size: 25px;
     font-weight: 450;
-    width: 35%;
+    width: 40%;
+}
+
+.our .secA {
+    width: 100%;
+    font-size: 45px;
 }
 .our .ah {
     display: flex;
+    justify-content:flex-start;
     align-items: center;
 }
 .hr {
     border: none;
     background-color: red;
+    margin-top: 6px;
     width: 25px;
     height: 2px;
 }
@@ -75,7 +82,9 @@
     margin-bottom: 10px; 
 }
 .our .lsa {
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
 }
 .blackBg {
     background-color: rgba(0, 0, 0, 0.818);
@@ -173,7 +182,7 @@ progress::-webkit-progress-value {
         gap: 20px;
     }
     .red {
-        width: 100%;
+        width: 45%;
     }
     .width {
         width: 90%;

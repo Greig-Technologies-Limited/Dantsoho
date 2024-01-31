@@ -128,8 +128,8 @@
     font-weight: 350;
     text-align: left;
     line-height: 2rem;
-    /* padding-left: 1.5rem; */
-    /* padding-bottom: .5rem; */
+    width: 95%;
+    margin: 0 auto;
     margin-bottom: 0;
 }
 .aboutChild .iconHold {
