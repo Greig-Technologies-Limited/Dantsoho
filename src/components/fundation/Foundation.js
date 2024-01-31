@@ -6,8 +6,19 @@ import Edu from '../../assets/education.jpeg'
 import Emp from '../../assets/empowering-youth-kenya.jpeg'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import {Link} from 'react-router-dom'
+
+
+import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
+import One from '../../assets/Five.jpeg'
+import Two from '../../assets/Six.jpeg'
+import Three from '../../assets/Two.jpeg'
+import four from '../../assets/Seven.webp'
 // import { useTypewriter, Cursor } from 'react-simple-typewriter'
 export const Foundation = () => {
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
+
+
   const [text] = useTypewriter({
     words: ['Contributing', 'Giving Back', ],
     loop: {},
@@ -15,14 +26,35 @@ export const Foundation = () => {
     deleteSpeed: 80,
   });
   return (
-    <div className="foundation">
-      <div className="backgroundImg">
-        <div className="fText">
-          <h1>
-            Foundation
-            <p><Link to="/" className='goHome'>Go Back</Link> <FaGreaterThan className='iconStyle' /> Foundation</p>
-          </h1>
+    <div className="foundation" id='embla' ref={emblaRef}>
+      <div className="embla__container">
+        <div className="embla__slide">
+          <img src={One} alt="" />
         </div>
+        <div className="embla__slide">
+        <img src={Three} alt="" />
+        </div>
+        <div className="embla__slide">
+        <img src={Two} alt="" />
+        </div>
+        <div className="embla__slide">
+        <img src={four} alt="" />
+        </div>
+        {/* <div className="embla__slide">
+        <img src={Four} alt="" />
+        </div>
+        <div className="embla__slide">
+        <img src={Five} alt="" />
+        </div>
+        <div className="embla__slide">
+        <img src={Six} alt="" />
+        </div> */}
+      </div>
+      <div className="fText">
+        <h1>
+          Foundation
+          <p><Link to="/" className='goHome'>Go Back</Link> <FaGreaterThan className='iconStyle' /> Foundation</p>
+        </h1>
       </div>
       <div className="foundationBase">
         <h1>

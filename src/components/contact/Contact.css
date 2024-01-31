@@ -4,7 +4,7 @@
     background: white;
 }
 .contactContainer {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 25px 40px;
     display: flex;
@@ -26,17 +26,21 @@
 
 .contactContentHold {
     display: flex;
+    width: 100%;
 }
 
 .contactDetails {
     width: 100%;
-    padding-bottom: 2rem;
-    padding-right: 4rem;
+    padding-right: 2rem;
     display: flex;
     flex-direction: column;
     /* background-color: brown; */
     /* justify-content: space-between; */
     align-items: center;
+}
+.contactDetails .map {
+    width: 100%;
+    height: 60vh;
 }
 .options {
     width: 100%;
@@ -93,6 +97,9 @@ form .firstRow input {
     margin-right: 1rem;
     border: none;
     border-bottom: 1px solid red;
+}
+.form .firstRow .phoneNumber {
+    width: 100%;
 }
 form .firstRow input::placeholder {
     font-size: 15px;

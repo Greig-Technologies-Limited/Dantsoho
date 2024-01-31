@@ -24,14 +24,16 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="div2">
-                    <div className="icon">  <FaMapMarkerAlt className='iconF'  /></div>
+                    <div className="icon">
+                        <a href="https://maps.app.goo.gl/zdEoNBNY18RCwkQv9" target="_blank"><FaMapMarkerAlt className='iconF'  /></a>
+                    </div>
                     <div className="divC">
                         <h2>19th Floor, Western House 8-10</h2>
                         <h2>Broad Street Lagos - Nigeria.</h2>
                     </div>
                 </div>
             </div>
-            <div className="lastF">Copyright 2020 Dantsoho, All rights reserved.</div>
+            <div className="lastF">Copyright 2024 Dantsoho, All rights reserved.</div>
         </div>
     </footer>
   )

@@ -66,6 +66,12 @@
     -webkit-box-shadow: -1px 1px 5px 6px rgba(0, 0, 0, 0.109);
     -moz-box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.109);
     box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.109);
+    cursor: pointer;
+    transition: 1s;
+}
+.aboutChild:hover {
+    transform:scale(1.1);
+    z-index: 10;
 }
 .aboutChild .childTop {
     height: 250px;

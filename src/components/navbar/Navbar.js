@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
 import "./Navbar.css";
-import brandLogo from '../../assets/dantsoho.png';
+// import brandLogo from '../../assets/dantsoho.png';
+import spin from '../../assets/dantsoho.png';
 
 const Navbar = () => {
     const [active, setActive] = useState("nav__menu");
@@ -19,10 +20,25 @@ const Navbar = () => {
         scroll.scrollToTop({ smooth: true, duration: 500 });
     };
 
+    const [rotationAngle, setRotationAngle] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setRotationAngle(rotationAngle + 1); // Adjust the speed of rotation by changing the increment value
+    }, 50); // Adjust the interval duration for the speed of rotation
+
+    return () => clearInterval(intervalId); // Cleanup on component unmount
+  }, [rotationAngle]);
+
     return (
         <nav className="nav">
             <RouterLink to="/" className='nav__brand' onClick={scrollToTop}>
-                <img src={brandLogo} alt="" />
+            <div className="image-container" style={{ transform: `rotateY(${rotationAngle}deg)` }}>
+            <img className='yay'
+            src={spin}
+            alt="Rotating"
+        />
+      </div>
             </RouterLink>
             <ul className={active}>
                 <li className="nav__item"><ScrollLink to="slider" smooth={true} duration={500}>Home</ScrollLink></li>
