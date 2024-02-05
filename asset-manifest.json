@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dantsoho/static/css/main.e84c860b.css",
+    "main.css": "/Dantsoho/static/css/main.ee33d031.css",
     "main.js": "/Dantsoho/static/js/main.23f5d245.js",
     "static/media/pexels-ketut-subiyanto-4546016-1.jpg": "/Dantsoho/static/media/pexels-ketut-subiyanto-4546016-1.d6a017a9f3d3a8e300a9.jpg",
     "static/media/Ship-3-scaled.jpg": "/Dantsoho/static/media/Ship-3-scaled.34f00da82fa9e854c212.jpg",
@@ -22,11 +22,11 @@
     "static/media/empowering-youth-kenya.jpeg": "/Dantsoho/static/media/empowering-youth-kenya.68d0637a1eb2631cf052.jpeg",
     "static/media/dantsoho.png": "/Dantsoho/static/media/dantsoho.83567bbe91251fad40df.png",
     "index.html": "/Dantsoho/index.html",
-    "main.e84c860b.css.map": "/Dantsoho/static/css/main.e84c860b.css.map",
+    "main.ee33d031.css.map": "/Dantsoho/static/css/main.ee33d031.css.map",
     "main.23f5d245.js.map": "/Dantsoho/static/js/main.23f5d245.js.map"
   },
   "entrypoints": [
-    "static/css/main.e84c860b.css",
+    "static/css/main.ee33d031.css",
     "static/js/main.23f5d245.js"
   ]
 }
