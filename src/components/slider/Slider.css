@@ -1,6 +1,6 @@
 .slider {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     overflow: hidden;
   }
@@ -36,7 +36,7 @@
   
   .content {
     position: absolute;
-    top: 23rem;
+    top: 33rem;
     left: 5rem;
     opacity: 0;
     width: 70%;
@@ -47,6 +47,7 @@
     animation-delay: 1s;
     animation-fill-mode: forwards;
     visibility: hidden;
+    margin-top: 20rem;
   }
   .content p {
     font-size: 23px;
@@ -124,5 +125,19 @@
     .content {
       width: 80%;
       display: none;
+    }
+    .slider {
+      width: 100%;
+      min-height: 50vh;
+      position: relative;
+      overflow: hidden;
+  }
+  }
+  @media screen and (max-width: 1024px) {
+    .slider {
+      width: 100%;
+      min-height: 50vh;
+      position: relative;
+      overflow: hidden;
     }
   }

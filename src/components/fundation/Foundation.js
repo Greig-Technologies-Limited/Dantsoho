@@ -10,10 +10,10 @@ import {Link} from 'react-router-dom'
 
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import One from '../../assets/Five.jpeg'
-import Two from '../../assets/Six.jpeg'
-import Three from '../../assets/Two.jpeg'
-import four from '../../assets/Seven.webp'
+import One from '../../assets/student_support.jpg'
+import Two from '../../assets/engineer.jpg'
+// import Three from '../../assets/Two.jpeg'
+// import four from '../../assets/Seven.webp'
 // import { useTypewriter, Cursor } from 'react-simple-typewriter'
 export const Foundation = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
@@ -31,15 +31,15 @@ export const Foundation = () => {
         <div className="embla__slide">
           <img src={One} alt="" />
         </div>
-        <div className="embla__slide">
+        {/* <div className="embla__slide">
         <img src={Three} alt="" />
-        </div>
+        </div> */}
         <div className="embla__slide">
         <img src={Two} alt="" />
         </div>
-        <div className="embla__slide">
+        {/* <div className="embla__slide">
         <img src={four} alt="" />
-        </div>
+        </div> */}
         {/* <div className="embla__slide">
         <img src={Four} alt="" />
         </div>
